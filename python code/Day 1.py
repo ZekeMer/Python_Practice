@@ -1,6 +1,8 @@
-print("Hello world!\nHello world!")  # the \n adds new line
-print("Hello" + " Dom") # catanation
-print("Dom," + " " + "hello!")  #catanation
+
+#! Basic print function
+# print("Hello world!\nHello world!")  #? the \n adds new line
+# print("Hello" + " Dom") #? catanation
+# print("Dom," + " " + "hello!")  #? catanation
 
 #! 1. input function, requires user interaction in terminal.
 
@@ -29,7 +31,7 @@ print("Dom," + " " + "hello!")  #catanation
 # print(name)
 
 #! 6. len = length of string
-#*    FYI Highlighting the entire line and putting begining "(" will put the closing ")" at the end of highlighted string.
+#?    FYI Highlighting the entire line and putting begining "(" will put the closing ")" at the end of highlighted string.
 
 #print(len(input("Type the word 'Dom'. ")))  
 
@@ -41,7 +43,7 @@ print("Dom," + " " + "hello!")  #catanation
 
 
 #! 8. Pyhtonic Swapping, Switching variable results.
-# variable names should make sense.
+#? variable names should make sense.
 
 # name = "Dominick"
 # profession = "Tutor"
