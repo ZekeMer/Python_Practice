@@ -52,10 +52,3 @@
 # print(f"After swapping: name = {name}, profession = {profession}")
 
 
-#! 10. Multiple input functions with user input, processed into one print statement
-
-# print("Dom's World!!!!!")
-# planet = input("What is the best planet? ")
-# Dino = input("What is the best dinosaur? ")
-# species = input("What species are you? ")
-# print("Doms planet is", planet + " Where", Dino + " roam freely, while eating", species)
