@@ -31,7 +31,7 @@
 # print(name)
 
 #! 6. len = length of string
-#?    FYI Highlighting the entire line and putting begining "(" will put the closing ")" at the end of highlighted string.
+#?    FYI Highlighting the entire string and putting begining "(" will put the closing ")" at the end of highlighted string.
 
 #print(len(input("Type the word 'Dom'. ")))  
 
@@ -46,7 +46,7 @@
 #? variable names should make sense.
 
 # name = "Dominick"
-# profession = "Tutor"
+# profession = "PROTute"
 
 # name, profession = profession, name
 # print(f"After swapping: name = {name}, profession = {profession}")
