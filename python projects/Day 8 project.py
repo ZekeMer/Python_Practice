@@ -97,20 +97,19 @@ shift = int(input("Type the shift number:\n"))
 
 
 
+def cipher(text, amount, done):
+    code_text = ""
+    if done == "decode":
+        amount *= -1
 
-# def cipher(text, amount, done):
-#     code_text = ""
-#     if done == "decode":
-#         amount *= -1
-
-#     for letter in text:       
-#         if letter not in alphabet:
-#             code_text += letter
-#         else:     
-#             code_position = alphabet.index(letter) + amount
-#             code_position %= len(alphabet)
-#             code_text += alphabet[code_position]
-#     print(f"This is the {done} message: {code_text}") 
+    for letter in text:       
+        if letter not in alphabet:
+            code_text += letter
+        else:     
+            code_position = alphabet.index(letter) + amount
+            code_position %= len(alphabet)
+            code_text += alphabet[code_position]
+    print(f"This is the {done} message: {code_text}") 
 
 
 

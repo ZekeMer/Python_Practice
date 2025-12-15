@@ -1,0 +1,140 @@
+{
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "python.createEnvironment.trigger": "off",
+    "oneDarkPro.italic": true,
+    "workbench.panel.showLabels": true,
+    "workbench.startupEditor": "none",
+    "editor.allowVariableFonts": false,
+    "liveshare.connectionMode": "direct",
+    "terminal.integrated.fontSize": 20,
+    "workbench.preferredDarkColorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.colorCustomizations": {
+    
+        
+        "titleBar.border": "#ff0000",
+        "textBlockQuote.border": "#fa2a06",
+        "terminal.border": "#ff0000",
+        "tab.border": "#ff0000",
+        "statusBar.border": "#ff0000",
+        "sideBar.border": "#ff0000",
+        "peekView.border": "#ff0000",
+        "panel.border": "#ff0000",
+        "editorGroup.border": "#ff0000",
+        "input.border": "#ff0000",
+        "dropdown.border": "#ff0000",
+        "focusBorder": "#ff0000",
+        "scrollbarSlider.activeBorder": "#ff0000",
+        "editorOverviewRuler.border": "#ff0000",
+        "editorWidget.border": "#ff0000",
+        "activityBar.border": "#ff0000",
+        "badge.border": "#ff0000",
+        "notificationCenter.border": "#ff0000",
+        "tab.inactiveBackground": "#033175",
+        "tab.activeBackground": "#013f16",
+        "sideBar.background": "#211966",
+        "editor.foreground":"#0bc2f0",
+        "activityBar.activeBackground":"#31ec02",
+        "activityBar.background": "#0e0d0d",
+        "activityBar.activeBorder": "#ca1212",
+        "editorGroupHeader.tabsBorder":"#ff0000"
+    },
+    
+    "workbench.preferredLightColorTheme": "One Dark Pro Darker",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.preferredHighContrastColorTheme": "One Dark Pro Darker",
+    "workbench.preferredHighContrastLightColorTheme": "One Dark Pro Darker",
+    "oneDarkPro.bold": true, 
+
+    "editor.tokenColorCustomizations": {
+        "comments":"#5d36ec",
+        "keywords": "#eb005a",
+        "functions": "#65eafc",
+        "numbers": "#3fdaee",
+        "strings": "#028a19",
+        "variables": "#f5e505",
+        "types": "#0ae96e",    
+    },
+    "oneDarkPro.editorTheme": "Dark Modern",
+    "editor.fontSize": 18,
+    "workbench.tree.indent": 18,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.view.showQuietly": {
+    "workbench.panel.output": true
+    },
+    "diffEditor.renderSideBySide": false,
+    "chat.editRequests": "none",
+    "inlineChat.accessibleDiffView": "off",
+    "chat.implicitContext.enabled": {
+        "panel": "never"
+    },
+    "chat.implicitContext.suggestedContext": false,
+    "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.experimental.emptyResponseInformation": false,
+    "workbench.editor.empty.hint": "hidden",
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3ad1ff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#f147c7",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "@",
+            "color": "#6eff2b",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+}
+    
