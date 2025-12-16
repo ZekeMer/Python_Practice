@@ -146,50 +146,50 @@ word_list = ["aardvark", "baboon", "camel", "college", "learn"]
 #         print("You win!")
 
 
-#! Step 4
-# TODO Create a cariable called lives to keep track of the number of lives and set live to equal 6.
-lives = 6
+# #! Step 4
+# # TODO Create a cariable called lives to keep track of the number of lives and set live to equal 6.
+# lives = 6
 
-chosen_word = random.choice(word_list)
-print(chosen_word)
+# chosen_word = random.choice(word_list)
+# print(chosen_word)
 
-placeholder = ""
-word_length = len(chosen_word)
+# placeholder = ""
+# word_length = len(chosen_word)
 
-for position in range(word_length):
-    placeholder += "_"
-print(placeholder)
+# for position in range(word_length):
+#     placeholder += "_"
+# print(placeholder)
 
-game = False
-correct_letters = []
+# game = False
+# correct_letters = []
 
-while not game:
-    guess = input("Guess a letter: ").lower()
+# while not game:
+#     guess = input("Guess a letter: ").lower()
 
-    display = ""
+#     display = ""
 
-    for letter in chosen_word:
-        if letter == guess:
-            display += letter
-            correct_letters.append(guess)
-        elif letter in correct_letters:
-            display += letter
-        else:
-            display += "_"
-    print(display)
-# TODO If guess is not a letter in the chosen_word, reduce lives by 1
-# TODO If lives goes down to 0 then game should end, and print "Game Over!"
-    if guess not in chosen_word:
-        lives -= 1
-        if lives == 0:
-            game = True
-            print("Game Over!")
+#     for letter in chosen_word:
+#         if letter == guess:
+#             display += letter
+#             correct_letters.append(guess)
+#         elif letter in correct_letters:
+#             display += letter
+#         else:
+#             display += "_"
+#     print(display)
+# # TODO If guess is not a letter in the chosen_word, reduce lives by 1
+# # TODO If lives goes down to 0 then game should end, and print "Game Over!"
+#     if guess not in chosen_word:
+#         lives -= 1
+#         if lives == 0:
+#             game = True
+#             print("Game Over!")
 
-    if "_" not in display:
-        game = True
-        print("You win!")
+#     if "_" not in display:
+#         game = True
+#         print("You win!")
 
-# TODO Print the ASCII art from stages that corresponds to current number of lives the user has remaining.
+# # TODO Print the ASCII art from stages that corresponds to current number of lives the user has remaining.
 
-    print(stages[lives])
+#     print(stages[lives])
     
