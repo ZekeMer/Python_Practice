@@ -12,7 +12,7 @@
 
 # format("Dom", "proTute")
     
-# #@ For a cleaner version of print
+# ## For a cleaner version of print.
 # def format(f_name, l_name):
 #     form_f = f_name.title()
 #     form_l = l_name.title()
@@ -20,7 +20,7 @@
 
 # format("DoM", "PROtute")
     
-# #@ Using return to output the new output for function
+# #! Using return to output the new output for function.
 # def format(f_name, l_name):
 #     form_f = f_name.title()
 #     form_l = l_name.title()
@@ -29,7 +29,7 @@
 # form_string = format("DoM", "pRoTuTe")
 # print(form_string)
 
-# #! multiple return values 
+# #! Multiple return values 
 # def format(f_name, l_name):
 #     if f_name == "" or l_name == "":
 #         return "You forgot to type something."
@@ -56,4 +56,3 @@
 # year_input = input("What year is it? ")
 # result = is_leap_year(year_input)
 # print(result)
-

@@ -1,6 +1,6 @@
 
 #! Randomization and Python lists
-#? Link for Pyhton randomizing functions    https://docs.python.org/3/library/random.html 
+#@ Link for Pyhton randomizing functions    https://docs.python.org/3/library/random.html 
 
 #! 1. Import of random module
 
